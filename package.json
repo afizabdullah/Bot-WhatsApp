@@ -1,0 +1,26 @@
+{
+  "name": "anime-welcome-bot",
+  "version": "1.0.0",
+  "description": "🎌 Anime themed Telegram welcome bot with media support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "welcome",
+    "anime",
+    "nodejs"
+  ],
+  "author": "@jamespydev2",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
